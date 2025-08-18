@@ -1,0 +1,16 @@
+document_id,title,author,created_date,last_modified,category,tags,content
+DOC001,Annual Financial Report 2023,John Smith,2023-01-15,2023-02-10,Report,"finance, annual, 2023",This report summarizes the company's financial performance for fiscal year 2023.
+DOC002,Employee Handbook,HR Department,2021-07-01,2023-03-20,Policy,"hr, onboarding, rules","The employee handbook outlines company policies, code of conduct, and benefits."
+DOC003,AI Research Proposal,Test Guy,2023-05-05,2023-05-12,Proposal,"ai, research, nlp",This document proposes a new research direction in AI-based misinformation detection.
+DOC004,Marketing Strategy Q2 2023,Sarah Lee,2023-04-01,2023-04-15,Strategy,"marketing, q2, sales","The marketing strategy for Q2 focuses on digital campaigns, influencer outreach, and events."
+DOC005,Office Renovation Invoice,BuildCorp Ltd.,2022-11-18,2022-11-18,Invoice,"invoice, renovation, office","Invoice for renovation services provided including painting, flooring, and electrical work."
+DOC006,Software License Agreement,TechSoft Inc.,2022-09-10,2023-01-05,Contract,"software, license, agreement",This agreement grants a non-exclusive license to use the TechSoft software under specified terms.
+DOC007,Training Program Outline,Learning & Development,2023-04-05,2023-04-10,Training,"training, development, employees","Outline of the training program covering leadership, communication, and project management."
+DOC008,IT Infrastructure Report,IT Department,2023-06-01,2023-06-15,Report,"it, infrastructure, systems","This report covers the upgrades to servers, network, and security infrastructure."
+DOC009,Customer Feedback Analysis,Analytics Team,2023-03-12,2023-03-25,Analysis,"customers, feedback, analytics",Analysis of customer feedback collected during Q1 2023 across multiple channels.
+DOC010,Project Roadmap 2023-2024,PMO,2023-02-01,2023-05-10,Planning,"projects, roadmap, 2024",High-level roadmap outlining milestones and deliverables for 2023 and 2024.
+DOC011,Cybersecurity Policy,IT Security,2022-12-01,2023-01-20,Policy,"security, policy, compliance","Defines company guidelines for cybersecurity, access control, and data protection."
+DOC012,Sustainability Report 2022,Environmental Dept.,2022-10-05,2022-12-15,Report,"sustainability, environment, 2022","Report on sustainability initiatives, carbon footprint, and environmental programs."
+DOC013,Conference Presentation Slides,Research Team,2023-07-10,2023-07-15,Presentation,"conference, slides, research",Presentation slides prepared for the annual AI and Data Science conference.
+DOC014,Supplier Contract - Alpha Supplies,Procurement,2023-01-20,2023-01-20,Contract,"supplies, contract, procurement",Contract with Alpha Supplies for provision of raw materials for Q1-Q2 2023.
+DOC015,Market Research Report - EMEA,Market Research Team,2023-02-15,2023-03-01,Research,"market, research, emea",Comprehensive research report analyzing market trends in the EMEA region.
