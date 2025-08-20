@@ -210,3 +210,5 @@ __marimo__/
 .gradio/
 models/
 config.py
+vector_metadata.csv
+vector_index.faiss
