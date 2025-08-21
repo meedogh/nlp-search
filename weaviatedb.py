@@ -39,16 +39,7 @@ class WeaviateDB:
 
     def query(self, text, top_k=5, metric="cosine", where_filter=None):
         vector = self.model.encode(text, convert_to_numpy=True).tolist()
-        
         near_vector = {"vector": vector}
-        if metric == "cosine":
-            near_vector["certainty"] = 0.7 
-        elif metric == "dot":
-            near_vector["certainty"] = 0.7
-        elif metric == "euclidean":
-            near_vector["distance"] = 1.0 
-        else:
-            raise ValueError("Metric must be one of ['cosine', 'dot', 'euclidean']")
 
         query_obj = (
             self.client.query
@@ -65,8 +56,13 @@ class WeaviateDB:
             query_obj = query_obj.with_where(where_filter)
 
         result = query_obj.do()
+        
+        class_results = result.get("data", {}).get("Get", {}).get(self.class_name)
+        if not class_results:
+            return []
+
         hits = []
-        for item in result.get("data", {}).get("Get", {}).get(self.class_name, []):
+        for item in class_results:
             hits.append({
                 "document_id": item.get("document_id"),
                 "title": item.get("title"),
@@ -79,6 +75,7 @@ class WeaviateDB:
                 "distance": item["_additional"]["distance"]
             })
         return hits
+
 
     
     def vector_search(self, text, top_k=5, metric="cosine"):
