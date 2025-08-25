@@ -1,0 +1,189 @@
+{
+  "repositories": [
+    {
+      "repo_id": "R001",
+      "repo_name": "CarsRepo",
+      "folders": [
+        {
+          "folder_id": "F001",
+          "folder_name": "2023",
+          "folders": [
+            {
+              "folder_id": "F002",
+              "folder_name": "Damascus",
+              "documents": [
+                {
+                  "document_id": "DOC001",
+                  "title": "Accident Report March",
+                  "author": "John Smith",
+                  "created_date": "2023-03-15",
+                  "last_modified": "2023-03-20",
+                  "tags": ["accident", "damascus", "car"],
+                  "category": "Report",
+                  "files": [
+                    {
+                      "file_id": "FILE001",
+                      "file_name": "accident_summary.txt",
+                      "file_type": "text",
+                      "content": "Car X had an accident in Damascus on March 14, 2023."
+                    },
+                    {
+                      "file_id": "FILE002",
+                      "file_name": "photo1.jpg",
+                      "file_type": "image",
+                      "content": null
+                    }
+                  ]
+                },
+                {
+                  "document_id": "DOC002",
+                  "title": "Insurance Claim",
+                  "author": "Jane Doe",
+                  "created_date": "2023-02-10",
+                  "last_modified": "2023-02-15",
+                  "tags": ["insurance", "damascus"],
+                  "category": "Claim",
+                  "files": [
+                    {
+                      "file_id": "FILE003",
+                      "file_name": "claim_form.pdf",
+                      "file_type": "pdf",
+                      "content": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folder_id": "F003",
+              "folder_name": "Beirut",
+              "documents": [
+                {
+                  "document_id": "DOC003",
+                  "title": "Traffic Violations 2023",
+                  "author": "Alice Brown",
+                  "created_date": "2023-01-05",
+                  "last_modified": "2023-01-06",
+                  "tags": ["traffic", "beirut"],
+                  "category": "Report",
+                  "files": [
+                    {
+                      "file_id": "FILE004",
+                      "file_name": "violations.csv",
+                      "file_type": "csv",
+                      "content": "Car1, speeding, 2023-01-02\nCar2, parking, 2023-01-03"
+                    }
+                  ]
+                },
+                {
+                  "document_id": "DOC004",
+                  "title": "Car Accident Summary",
+                  "author": "Bob Green",
+                  "created_date": "2023-02-20",
+                  "last_modified": "2023-02-22",
+                  "tags": ["accident", "beirut"],
+                  "category": "Report",
+                  "files": [
+                    {
+                      "file_id": "FILE005",
+                      "file_name": "summary.docx",
+                      "file_type": "docx",
+                      "content": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folder_id": "F004",
+          "folder_name": "2022",
+          "folders": [
+            {
+              "folder_id": "F005",
+              "folder_name": "Damascus",
+              "documents": [
+                {
+                  "document_id": "DOC005",
+                  "title": "Accident Report 2022",
+                  "author": "John Smith",
+                  "created_date": "2022-11-15",
+                  "last_modified": "2022-11-20",
+                  "tags": ["accident", "damascus", "car"],
+                  "category": "Report",
+                  "files": [
+                    {
+                      "file_id": "FILE006",
+                      "file_name": "report2022.txt",
+                      "file_type": "text",
+                      "content": "Multiple minor accidents in Damascus in 2022."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repo_id": "R002",
+      "repo_name": "InsuranceRepo",
+      "folders": [
+        {
+          "folder_id": "F006",
+          "folder_name": "2023",
+          "folders": [
+            {
+              "folder_id": "F007",
+              "folder_name": "Damascus",
+              "documents": [
+                {
+                  "document_id": "DOC006",
+                  "title": "Insurance Premiums 2023",
+                  "author": "Jane Doe",
+                  "created_date": "2023-01-10",
+                  "last_modified": "2023-01-15",
+                  "tags": ["insurance", "damascus", "premium"],
+                  "category": "Report",
+                  "files": [
+                    {
+                      "file_id": "FILE007",
+                      "file_name": "premiums.xlsx",
+                      "file_type": "excel",
+                      "content": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folder_id": "F008",
+              "folder_name": "Beirut",
+              "documents": [
+                {
+                  "document_id": "DOC007",
+                  "title": "Claims Overview 2023",
+                  "author": "Alice Brown",
+                  "created_date": "2023-03-01",
+                  "last_modified": "2023-03-05",
+                  "tags": ["insurance", "beirut", "claims"],
+                  "category": "Report",
+                  "files": [
+                    {
+                      "file_id": "FILE008",
+                      "file_name": "claims_summary.pdf",
+                      "file_type": "pdf",
+                      "content": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
